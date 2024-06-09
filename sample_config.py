@@ -6,12 +6,12 @@ load_dotenv(
     "config.env" if os.path.isfile("config.env") else "sample_config.env"
 )
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
-API_ID = int(os.environ.get("API_ID"))
-SESSION_STRING = os.environ.get("SESSION_STRING", "")
-API_HASH = os.environ.get("API_HASH")
+BOT_TOKEN = os.environ.get("6370891060:AAHjFCrStAuz7ng0bpAUJDrqxJhnL_e9a1k")
+API_ID = int(os.environ.get("24638763"))
+SESSION_STRING = os.environ.get("BABO-fIWQP2VSTFEHEBdMhJ9PufWtuo7FrLaqhhGglOmYpJ7HG4RL0wkrmXmqHXzRqh6PQcLIbpXWPliOhuCIpgPXYdlaFGvNV3e4HxAMcqd49grz2tjykvLnpxnrf44byHQ5qxjLYX0GsJb84PFnBvt2P-OmaBlW-hKvqf_A4twGG_ZrOdaTsbfvR92lbnevb5LnLcYL6M4fPVsCQQjBkxIo7R5LCJeGnfJO0kXFkiPkkqWFUC-wi0ElZ6C1b1uZCTaKG4ldiVBN9xilbIUYInxgDseE5t12_W_wJYDHZ1vYnhV72NheXn5oamUyh4_Aypl28lEyu3PD_oOkA_us5_AAAAAAVO5jmQA", "")
+API_HASH = os.environ.get("e02a72843ababb75de3c4f3aa2ce8d75")
 USERBOT_PREFIX = os.environ.get("USERBOT_PREFIX", ".")
-PHONE_NUMBER = os.environ.get("PHONE_NUMBER")
+PHONE_NUMBER = os.environ.get("+989999135956")
 SUDO_USERS_ID = list(map(int, os.environ.get("SUDO_USERS_ID", "").split()))
 LOG_GROUP_ID = int(os.environ.get("LOG_GROUP_ID"))
 GBAN_LOG_GROUP_ID = int(os.environ.get("GBAN_LOG_GROUP_ID"))
